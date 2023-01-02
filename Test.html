@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="/Test.css" />
+    <script src="/Server.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/00d215cf91.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="weatherCont">
+      <div class="Search">
+        <input type="text" class="search" />
+        <button class="btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <h2 class="weatherIn">Weather in Plovdiv</h2>
+      <h1 class="temp">23°C</h1>
+      <img src="" alt="" class="icon" />
+      <div class="condition">Sunny</div>
+      <div class="wind">6 km/h</div>
+      <div class="daysOfWeek">
+        <p class="monday" id="day0">Monday</p>
+        <p class="tuesday" id="day1">Tuesday</p>
+        <p class="wednesday" id="day2">Wednesday</p>
+        <p class="thursday" id="day3">Thursday</p>
+        <p class="friday" id="day4">Friday</p>
+      </div>
+      <div class="fiveDays">
+        <div class="day">
+          <img class="pic1" src="/weather.png" alt="" />
+          <p class="day1">2/15°C</p>
+        </div>
+        <div class="day">
+          <img class="pic2" src="/weather.png" alt="" />
+          <p class="day2">3/18°C</p>
+        </div>
+        <div class="day">
+          <img class="pic3" src="/weather.png" alt="" />
+          <p class="day3">-2/7°C</p>
+        </div>
+        <div class="day">
+          <img class="pic4" src="/weather.png" alt="" />
+          <p class="day4">-6/3°C</p>
+        </div>
+        <div class="day">
+          <img class="pic5" src="/weather.png" alt="" />
+          <p class="day5">1/8°C</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
